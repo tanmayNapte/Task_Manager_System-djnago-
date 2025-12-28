@@ -44,24 +44,24 @@ task_management_system/
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the repository
-```bash
+
 git clone https://github.com/tanmayNapte/Task_Manager_System-djnago-.git
 cd Task_Manager_System-djnago-
 
-2️⃣ Create virtual environment
+###2️⃣ Create virtual environment
 python -m venv venv
 venv\Scripts\activate   # Windows
 
-3️⃣ Install dependencies
+###3️⃣ Install dependencies
 pip install -r requirements.txt
 
-4️⃣ Run migrations
+###4️⃣ Run migrations
 python manage.py migrate
 
-5️⃣ Create superuser
+###5️⃣ Create superuser
 python manage.py createsuperuser
 
-6️⃣ Run server
+###6️⃣ Run server
 python manage.py runserver
 
 
